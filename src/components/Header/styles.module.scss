@@ -1,0 +1,36 @@
+.HeaderContainer {
+    height: 16rem;
+
+    display: flex;
+    align-items: center;
+
+    padding: 2rem 4rem;
+
+    border-bottom: 1px solid var(--gray-800);
+
+    background-image: url("/headersitelixo.png");
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+
+    button {
+
+        background: transparent;
+        border: none;
+    
+        img {
+            height: 13rem;
+            display: flex;
+            background: transparent;
+            transition: transform 0.2s;
+
+            &:hover {
+                -webkit-transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -o-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                transform: scale(1.1);
+            } 
+        }
+    }  
+}  
