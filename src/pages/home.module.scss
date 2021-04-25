@@ -1,11 +1,19 @@
 .homepage {
 
     list-style: none;
-    display: grid;
+    display: flex;
 
     grid-template-columns: repeat(6, 1fr);
     gap: 10rem;
     align-items: center;
+    justify-content: center;
+
+    .PlayerContainer {
+        
+        display: table;
+        margin: 0 auto;
+
+    }
 
     button {
 

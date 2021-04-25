@@ -6,7 +6,7 @@ export function Header() {
         <header className={styles.HeaderContainer}>
             <Link href="/">
                 <button type="button">
-                    <img src="/sitelixologo.png" alt="Site Lixo" />
+                    <img src="/sitelixologo.png" alt="Site Lixo logo"/>
                 </button>
             </Link>
         </header>
