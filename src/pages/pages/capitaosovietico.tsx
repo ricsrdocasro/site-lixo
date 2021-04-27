@@ -1,7 +1,12 @@
+import Head from 'next/head';
 import styles from './capitaosovietico.module.scss';
 
 export default function capitaosovietico() {
     return (
-        <div></div>
+        <div>
+            <Head>
+                <title>Capitão Soviético</title>
+            </Head>
+        </div>
     )
 } 

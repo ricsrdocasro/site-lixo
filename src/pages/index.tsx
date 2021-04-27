@@ -4,10 +4,14 @@ import styles from './home.module.scss';
 import Link from 'next/link';
 import React from 'react';
 import ReactPlayer from "react-player";
+import Head from 'next/head';
 
 export default function Home() {
   return(
     <div>
+      <Head>
+        <title>Home</title>
+      </Head>
       <header className={styles.homepage}>
         <Link href={"/pages/batata"}>
           <button type="button">
