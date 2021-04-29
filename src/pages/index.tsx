@@ -39,8 +39,10 @@ export default function Home() {
           </button>
         </a>
       </header>
-      <div className={styles.PlayerContainer}>
+      <div className='player-wrapper'>
         <ReactPlayer
+          className='react-player'
+          controls={true}
           url="https://www.youtube.com/watch?v=SLs8oNeiqVM"
         />
       </div>

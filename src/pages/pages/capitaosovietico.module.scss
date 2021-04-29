@@ -1,0 +1,30 @@
+.capitaosovietico {
+    display: flex;
+    
+    .imagem {
+        img {
+            margin-top: 2rem;
+            padding:0 2rem;
+            width: 30vw;
+            height: 63.71vh;
+        }
+    }
+
+    ul {
+        align-self: right;
+        margin-left: 1rem;
+
+        h1 {
+            margin-top: 3rem;
+            font-family: Lexend, sans-serif;
+        }
+
+        p {
+            margin-top: 2rem;
+            line-height: 1.5rem;
+            color: var(--gray-800);
+            font-family: Lexend, sans-serif;
+        }
+    }    
+}
+

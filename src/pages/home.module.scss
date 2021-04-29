@@ -8,13 +8,6 @@
     align-items: center;
     justify-content: center;
 
-    .PlayerContainer {
-        
-        display: table;
-        margin: 0 auto;
-
-    }
-
     button {
 
         background: transparent;
@@ -24,7 +17,6 @@
             
             height: 6rem;
             display: grid;
-            background: transparent;
             transition: transform 0.2s;
 
             &:hover {
