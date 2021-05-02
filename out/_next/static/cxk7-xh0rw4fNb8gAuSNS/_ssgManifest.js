@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fbatata\u002F[batata]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
