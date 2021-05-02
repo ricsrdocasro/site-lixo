@@ -2,6 +2,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from './portfolio.module.scss'
 
+const myLoader = ({ src, width, quality }) => {
+    return `https://site-lixo.com/${src}?w=${width}&q=${quality || 75}`
+  }
+
 export default function portfolio() {
     return (
         <div className={styles.portfolio}>
@@ -9,6 +13,7 @@ export default function portfolio() {
                 <Link href="https://github.com/ricsrdocasro/video-transcription-bot">
                     <button type="button">
                         <Image 
+                            loader={myLoader}
                             className={styles.imageContainer}
                             width={300}
                             height={200}
@@ -27,6 +32,7 @@ export default function portfolio() {
                 <Link href="https://github.com/ricsrdocasro/video-transcription-bot">
                     <button type="button">
                         <Image 
+                            loader={myLoader}
                             className={styles.imageContainer}
                             width={200}
                             height={150}
