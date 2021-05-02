@@ -1,7 +1,12 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/batata/[batata]": "pages/batata/[batata].js",
+  "/": "pages/index.html",
+  "/pages/batata": "pages/pages/batata.html",
+  "/pages/capitaosovietico": "pages/pages/capitaosovietico.html",
+  "/pages/portfolio": "pages/pages/portfolio.html",
+  "/pages/sobre": "pages/pages/sobre.html",
   "/_error": "pages/_error.js",
-  "/pages/portfolio": "pages/pages/portfolio.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
