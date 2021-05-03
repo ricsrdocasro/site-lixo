@@ -43,7 +43,7 @@ export default function Home() {
         <ReactPlayer
           className='react-player'
           controls={true}
-          url="https://www.youtube.com/watch?v=zoOfnXVisTI"
+          url="https://www.youtube.com/watch?v=TltApT0Ec1Y"
         />
       </div>
     </div>
