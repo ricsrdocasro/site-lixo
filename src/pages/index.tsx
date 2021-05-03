@@ -10,7 +10,7 @@ export default function Home() {
   return(
     <div>
       <Head>
-        <title>Home</title>
+        <title>Homepage</title>
       </Head>
       <header className={styles.homepage}>
         <Link href={"/pages/batata"}>
